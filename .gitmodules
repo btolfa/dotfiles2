@@ -1,0 +1,6 @@
+[submodule ".config/nvim/bundle/vim-solarized8"]
+	path = .config/nvim/bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
+[submodule ".config/nvim/bundle/vim-sensible"]
+	path = .config/nvim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
