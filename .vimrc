@@ -1,0 +1,1 @@
+/home/btolfa/.config/nvim/init.vim
