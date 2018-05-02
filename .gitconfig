@@ -1,0 +1,12 @@
+[user]
+	name = Tengiz Sharafiev
+	email = btolfa@gmail.com
+	signingkey = 0D7F1F7957CD89E0
+[alias]
+	prune = fetch --prune
+	resign = rebase --exec 'git commit --amend --no-edit -n -S' -i
+	amend = commit --amend -S
+	graft = cherry-pick
+	histedit = rebase -i
+[commit]
+	gpgsign = true
