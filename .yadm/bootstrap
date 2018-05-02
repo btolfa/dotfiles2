@@ -6,3 +6,9 @@ cd $HOME
 
 echo "Init submodules"
 yadm submodule update --recursive --init
+
+# Setup proper gpg (from windows)
+
+sudo mv /usr/bin/gpg /usr/bin/gpg1
+sudo update-alternatives --install /usr/bin/gpg  gpg  /usr/bin/gpg1 30 
+sudo update-alternatives --install /usr/bin/gpg  gpg  /mnt/c/Program\ Files\ \(x86\)/GnuPG/bin/gpg.exe 40 
