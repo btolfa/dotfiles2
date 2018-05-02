@@ -1,0 +1,37 @@
+[alias]
+s = status
+# Push selected branch
+pb = push --new-branch --branch
+# Push selected branch and default
+pbd = push --branch default --branch 
+# Close branch
+cb = commit --close-branch
+# Just push the current branch
+nudge = push --branch .
+
+[ui]
+username=Tengiz Sharafiev <btolfa@gmail.com>
+
+[diff]
+git = True
+
+[web]
+allow_push = *
+push_ssl = False
+
+[extensions]
+eol=
+shelve=
+histedit=
+purge=
+color=
+progress=
+rebase=
+pager=
+strip=
+share=
+
+[phases]
+publish = False
+
+%include ~/.hgsecret
